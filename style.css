@@ -1,0 +1,285 @@
+body {
+  padding: 0;
+  margin: 0 ;
+  /* background: #f2f2f2 url('https://formbuilder.online/assets/img/noise.png'); */
+  background: rgb(211, 225, 243);
+  overflow-x: hidden  !important;
+ 
+}
+/* .formbuilder-icon-autocomplete{
+  color: purple;
+  font-size: large;
+  font-weight:bolder;
+  
+}
+
+.formbuilder-icon-button{
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+
+}
+.formbuilder-icon-checkbox-group{
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+
+}
+.formbuilder-icon-date{
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+
+}
+.formbuilder-icon-file{
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+
+}
+.formbuilder-icon-header{
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+
+}
+.formbuilder-icon-hidden{
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+
+}
+.formbuilder-icon-number{
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+
+}
+.formbuilder-icon-paragraph{
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+
+}
+.formbuilder-icon-select{
+
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+
+}
+.formbuilder-icon-text{
+  
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+
+}
+.formbuilder-icon-textarea{
+  
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+}
+
+
+
+.formbuilder-icon-radio-group{
+  color: purple;
+  background-color: rgb(197, 12, 12);
+  font-size: large;
+  font-weight: bolder;
+}
+.form-builder{
+ background-color: blue;
+ float: left;
+ align-self: center;
+ width: 100px;
+
+} 
+.form-wrap{
+  box-sizing:100px;
+  background-color: rgb(211, 225, 243);
+  padding:190px;
+
+}
+  .form-wrap.form-builder{
+  background-color: rgb(133, 22, 55);
+}   */
+.form-builder-overlay{
+  background-color: rgb(210, 169, 243) !important;
+}
+ .field-actions{
+   background-color: rgb(55, 63, 60) !important;
+ 
+ }
+  #build-wrap{
+   /* background-color: rgb(17, 28, 31) !important; */
+   position: relative !important;  
+ }  
+
+
+/* .form-wrap.form-builder .btn{
+    background-color: red;  
+} */
+.pull-right {
+  background-color:rgb(236, 220, 233)  !important;
+  width: 25px  !important; 
+  height:500px !important;
+  position:absolute  !important;
+  left:10px !important;
+  top:100px !important; 
+  padding: 0px !important;
+
+
+}
+.pull-left{
+   background-color: rgb(176, 162, 240)  !important;
+   height: 200px;
+  
+}
+/* .form-wrap form-builder{
+ flex-direction: column-reverse;
+} */
+
+.form-wrap.form-builder .pull-left {
+  float:right  !important;
+}
+.form-wrap.form-builder .pull-left {
+  float:right  !important;
+}
+.pull-left {
+  float: right!important;
+}
+.form-wrap.form-builder .frmb-control {
+  position:absolute  !important;
+  left:5px !important;
+  top:5px !important;
+  padding: 20px !important;
+  border-radius: 5px !important;
+  display: grid !important; 
+  grid-template-columns: auto auto auto  !important;
+  column-gap: 15px !important;
+  row-gap: 20px !important;
+} 
+.form-builder {
+  /* background-color: blue; */
+  /* float: left; */
+  align-self: center !important;
+  width: 1000px !important;
+}
+.form-wrap.form-builder .cb-wrap {
+  width: 36% !important;
+  transition: transform 250ms  !important;
+  
+
+}
+
+[class^="formbuilder-icon-"]:before, [class*=" formbuilder-icon-"]:before {
+  font-family: "formbuilder-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  display: inline-block !important;
+  text-decoration: inherit !important;
+  width: 1em !important;
+  margin-right: 0.2em !important;
+  text-align: center !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1em !important;
+  margin-left: 0.2em !important;
+  /* padding-top:30px;
+  padding-left:0px; */
+}
+.form-wrap.form-builder .stage-wrap {
+  position:absolute ;
+
+  width:70%;
+  height:100%;
+  left:56%;
+  margin-right: 15px !important;
+}
+
+
+
+
+/* Gopi */
+.form-wrap.form-builder .frmb li {
+  position: fixed;
+  padding: 6px;
+  clear: both;
+  margin-left: 0;
+  width:100%;
+  margin-bottom: 3px;
+  background-color: #fff;
+  transition: background-color 250ms ease-in-out, margin-top 400ms;
+}
+
+/* inserted form fields on click */
+.form-wrap.form-builder * {
+  box-sizing: border-box;
+  /* border-radius: 10px; */
+    width:500;
+   height:fit-content;
+}
+
+/* clear box */
+.btn-group, .btn-group-vertical {
+  position: absolute;
+  top:420px;
+  left: -200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* dotted box */
+.form-wrap.form-builder .stage-wrap {
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+  width: 70%;
+  height:500px;
+  left: 56%;
+  top:20px;
+}
+
+/* left grid parent class */
+.form-wrap.form-builder .cb-wrap {
+  position:absolute;
+  width: 54%;
+  transition: transform 250ms;
+  height:400px;
+  background-color: rgb(52, 124, 124);
+}
+.form-wrap.form-builder .frmb-control li {
+  padding: 10px ! important;
+  border-radius: 20px;
+  text-overflow:inherit;
+}
+.form-wrap.form-builder .form-actions {
+  margin-top:20px !important;
+  margin-left: 20px !important;
+  position: fixed;
+}
+.form-wrap.form-builder .stage-wrap {
+  position: absolute;
+  width: 30%;
+  height: 500px;
+  left: 40%;
+  top: 100px;
+  border-radius: 20px;
+}
+.form-wrap.form-builder .frmb-control li::before {
+  margin-right: 10px;
+  font-size: 14px;
+  
+}
+  .form-builder{
+  width: 900px !important;
+}  
+
+.btn-group, .btn-group-vertical {
+    position: absolute;
+    top: 20px;
+    left: 900px;
+}

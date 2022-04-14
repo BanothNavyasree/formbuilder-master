@@ -1,0 +1,137 @@
+[
+    
+    {
+      "type": "text",
+      "required": false,
+      "label": "Respodent Name",
+      "placeholder": "enter your name",
+      "className": "form-control",
+      "name": "text-1648115348642-0",
+      "access": false,
+      "subtype": "text"
+    },
+    {
+      "type": "select",
+      "required": false,
+      "label": " ",
+      "className": "form-control",
+      "name": "select-1648108952085-0",
+      "access": false,
+      "multiple": false,
+      "values": [
+        {
+          "label": "Karimnagar",
+          "value": "Karimnagar",
+          "selected": true
+        },
+        {
+          "label": "Warangal",
+          "value": "Warangal",
+          "selected": false
+        },
+        {
+          "label": "Nirmal",
+          "value": "Nirmal",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "required": false,
+      "label": " ",
+      "className": "form-control",
+      "name": "select-1648108975774-0",
+      "access": false,
+      "multiple": false,
+      "values": [
+        {
+          "label": "Adilabad",
+          "value": "adilabad",
+          "selected": true
+        },
+        {
+          "label": "Karimnagar",
+          "value": "karimnagar",
+          "selected": false
+        },
+        {
+          "label": "Nirmal",
+          "value": "Nirmal",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "required": false,
+      "label": "Text Mobile number",
+      "placeholder": "enter your mobile number",
+      "className": "form-control",
+      "name": "text-1648108991748-0",
+      "access": false,
+      "subtype": "text"
+    },
+    {
+      "type": "text",
+      "required": false,
+      "label": "Number of clusters in your Mandal",
+      "placeholder": "enter number of clusters",
+      "className": "form-control",
+      "name": "text-1648109127684-0",
+      "access": false,
+      "subtype": "text"
+    },
+    {
+      "type": "text",
+      "required": false,
+      "label": "Number of AEO'S under supervision(do not include vacancies)",
+      "placeholder": "enter no. of AEO's",
+      "className": "form-control",
+      "name": "text-1648109328341-0",
+      "access": false,
+      "subtype": "text"
+    },
+    {
+      "type": "text",
+      "required": false,
+      "label": "Number of Revenue villages in mandal",
+      "placeholder": "enter total no .of revenue villages",
+      "className": "form-control",
+      "name": "text-1648109330872-0",
+      "access": false,
+      "subtype": "text"
+    },
+    {
+      "type": "text",
+      "required": false,
+      "label": "Total cultivable area in mandal(acres)",
+      "placeholder": "enter no.of cultivate area",
+      "className": "form-control",
+      "name": "text-1648109335320-0",
+      "access": false,
+      "subtype": "text"
+    },
+    {
+      "type": "text",
+      "required": false,
+      "label": "Total number of farmers in mandal",
+      "placeholder": "enter no.of farmers in mandal",
+      "className": "form-control",
+      "name": "text-1648115738161-0",
+      "access": false,
+      "subtype": "text"
+    },
+    {
+      "type": "text",
+      "required": false,
+      "label": "Year of joining",
+      "placeholder": "enter your year of joining",
+      "className": "form-control",
+      "name": "text-1648115743068-0",
+      "access": false,
+      "subtype": "text"
+    }
+  ]
+
+  
